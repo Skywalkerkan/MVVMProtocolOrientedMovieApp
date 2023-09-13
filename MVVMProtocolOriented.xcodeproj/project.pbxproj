@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEDB59762AB257CA00E599AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB59752AB257CA00E599AD /* AppDelegate.swift */; };
+		DEDB59782AB257CA00E599AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB59772AB257CA00E599AD /* SceneDelegate.swift */; };
+		DEDB597A2AB257CA00E599AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB59792AB257CA00E599AD /* ViewController.swift */; };
+		DEDB597D2AB257CA00E599AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB597B2AB257CA00E599AD /* Main.storyboard */; };
+		DEDB597F2AB257CB00E599AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDB597E2AB257CB00E599AD /* Assets.xcassets */; };
+		DEDB59822AB257CB00E599AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB59802AB257CB00E599AD /* LaunchScreen.storyboard */; };
+		DEDB598D2AB257CB00E599AD /* MVVMProtocolOrientedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB598C2AB257CB00E599AD /* MVVMProtocolOrientedTests.swift */; };
+		DEDB59972AB257CB00E599AD /* MVVMProtocolOrientedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB59962AB257CB00E599AD /* MVVMProtocolOrientedUITests.swift */; };
+		DEDB59992AB257CB00E599AD /* MVVMProtocolOrientedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB59982AB257CB00E599AD /* MVVMProtocolOrientedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDB59892AB257CB00E599AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDB596A2AB257CA00E599AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDB59712AB257CA00E599AD;
+			remoteInfo = MVVMProtocolOriented;
+		};
+		DEDB59932AB257CB00E599AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDB596A2AB257CA00E599AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDB59712AB257CA00E599AD;
+			remoteInfo = MVVMProtocolOriented;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEDB59722AB257CA00E599AD /* MVVMProtocolOriented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMProtocolOriented.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB59752AB257CA00E599AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEDB59772AB257CA00E599AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEDB59792AB257CA00E599AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEDB597C2AB257CA00E599AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDB597E2AB257CB00E599AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDB59812AB257CB00E599AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEDB59832AB257CB00E599AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDB59882AB257CB00E599AD /* MVVMProtocolOrientedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMProtocolOrientedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB598C2AB257CB00E599AD /* MVVMProtocolOrientedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMProtocolOrientedTests.swift; sourceTree = "<group>"; };
+		DEDB59922AB257CB00E599AD /* MVVMProtocolOrientedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMProtocolOrientedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB59962AB257CB00E599AD /* MVVMProtocolOrientedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMProtocolOrientedUITests.swift; sourceTree = "<group>"; };
+		DEDB59982AB257CB00E599AD /* MVVMProtocolOrientedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMProtocolOrientedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDB596F2AB257CA00E599AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB59852AB257CB00E599AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB598F2AB257CB00E599AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDB59692AB257CA00E599AD = {
+			isa = PBXGroup;
+			children = (
+				DEDB59742AB257CA00E599AD /* MVVMProtocolOriented */,
+				DEDB598B2AB257CB00E599AD /* MVVMProtocolOrientedTests */,
+				DEDB59952AB257CB00E599AD /* MVVMProtocolOrientedUITests */,
+				DEDB59732AB257CA00E599AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDB59732AB257CA00E599AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB59722AB257CA00E599AD /* MVVMProtocolOriented.app */,
+				DEDB59882AB257CB00E599AD /* MVVMProtocolOrientedTests.xctest */,
+				DEDB59922AB257CB00E599AD /* MVVMProtocolOrientedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDB59742AB257CA00E599AD /* MVVMProtocolOriented */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB59752AB257CA00E599AD /* AppDelegate.swift */,
+				DEDB59772AB257CA00E599AD /* SceneDelegate.swift */,
+				DEDB59792AB257CA00E599AD /* ViewController.swift */,
+				DEDB597B2AB257CA00E599AD /* Main.storyboard */,
+				DEDB597E2AB257CB00E599AD /* Assets.xcassets */,
+				DEDB59802AB257CB00E599AD /* LaunchScreen.storyboard */,
+				DEDB59832AB257CB00E599AD /* Info.plist */,
+			);
+			path = MVVMProtocolOriented;
+			sourceTree = "<group>";
+		};
+		DEDB598B2AB257CB00E599AD /* MVVMProtocolOrientedTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB598C2AB257CB00E599AD /* MVVMProtocolOrientedTests.swift */,
+			);
+			path = MVVMProtocolOrientedTests;
+			sourceTree = "<group>";
+		};
+		DEDB59952AB257CB00E599AD /* MVVMProtocolOrientedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB59962AB257CB00E599AD /* MVVMProtocolOrientedUITests.swift */,
+				DEDB59982AB257CB00E599AD /* MVVMProtocolOrientedUITestsLaunchTests.swift */,
+			);
+			path = MVVMProtocolOrientedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDB59712AB257CA00E599AD /* MVVMProtocolOriented */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB599C2AB257CB00E599AD /* Build configuration list for PBXNativeTarget "MVVMProtocolOriented" */;
+			buildPhases = (
+				DEDB596E2AB257CA00E599AD /* Sources */,
+				DEDB596F2AB257CA00E599AD /* Frameworks */,
+				DEDB59702AB257CA00E599AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMProtocolOriented;
+			productName = MVVMProtocolOriented;
+			productReference = DEDB59722AB257CA00E599AD /* MVVMProtocolOriented.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDB59872AB257CB00E599AD /* MVVMProtocolOrientedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB599F2AB257CB00E599AD /* Build configuration list for PBXNativeTarget "MVVMProtocolOrientedTests" */;
+			buildPhases = (
+				DEDB59842AB257CB00E599AD /* Sources */,
+				DEDB59852AB257CB00E599AD /* Frameworks */,
+				DEDB59862AB257CB00E599AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDB598A2AB257CB00E599AD /* PBXTargetDependency */,
+			);
+			name = MVVMProtocolOrientedTests;
+			productName = MVVMProtocolOrientedTests;
+			productReference = DEDB59882AB257CB00E599AD /* MVVMProtocolOrientedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEDB59912AB257CB00E599AD /* MVVMProtocolOrientedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB59A22AB257CB00E599AD /* Build configuration list for PBXNativeTarget "MVVMProtocolOrientedUITests" */;
+			buildPhases = (
+				DEDB598E2AB257CB00E599AD /* Sources */,
+				DEDB598F2AB257CB00E599AD /* Frameworks */,
+				DEDB59902AB257CB00E599AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDB59942AB257CB00E599AD /* PBXTargetDependency */,
+			);
+			name = MVVMProtocolOrientedUITests;
+			productName = MVVMProtocolOrientedUITests;
+			productReference = DEDB59922AB257CB00E599AD /* MVVMProtocolOrientedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDB596A2AB257CA00E599AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DEDB59712AB257CA00E599AD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DEDB59872AB257CB00E599AD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DEDB59712AB257CA00E599AD;
+					};
+					DEDB59912AB257CB00E599AD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DEDB59712AB257CA00E599AD;
+					};
+				};
+			};
+			buildConfigurationList = DEDB596D2AB257CA00E599AD /* Build configuration list for PBXProject "MVVMProtocolOriented" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDB59692AB257CA00E599AD;
+			productRefGroup = DEDB59732AB257CA00E599AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDB59712AB257CA00E599AD /* MVVMProtocolOriented */,
+				DEDB59872AB257CB00E599AD /* MVVMProtocolOrientedTests */,
+				DEDB59912AB257CB00E599AD /* MVVMProtocolOrientedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDB59702AB257CA00E599AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB59822AB257CB00E599AD /* LaunchScreen.storyboard in Resources */,
+				DEDB597F2AB257CB00E599AD /* Assets.xcassets in Resources */,
+				DEDB597D2AB257CA00E599AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB59862AB257CB00E599AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB59902AB257CB00E599AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDB596E2AB257CA00E599AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB597A2AB257CA00E599AD /* ViewController.swift in Sources */,
+				DEDB59762AB257CA00E599AD /* AppDelegate.swift in Sources */,
+				DEDB59782AB257CA00E599AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB59842AB257CB00E599AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB598D2AB257CB00E599AD /* MVVMProtocolOrientedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB598E2AB257CB00E599AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB59992AB257CB00E599AD /* MVVMProtocolOrientedUITestsLaunchTests.swift in Sources */,
+				DEDB59972AB257CB00E599AD /* MVVMProtocolOrientedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDB598A2AB257CB00E599AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDB59712AB257CA00E599AD /* MVVMProtocolOriented */;
+			targetProxy = DEDB59892AB257CB00E599AD /* PBXContainerItemProxy */;
+		};
+		DEDB59942AB257CB00E599AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDB59712AB257CA00E599AD /* MVVMProtocolOriented */;
+			targetProxy = DEDB59932AB257CB00E599AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDB597B2AB257CA00E599AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB597C2AB257CA00E599AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDB59802AB257CB00E599AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB59812AB257CB00E599AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDB599A2AB257CB00E599AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEDB599B2AB257CB00E599AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDB599D2AB257CB00E599AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY98G8GQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVVMProtocolOriented/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkancosar.MVVMProtocolOriented;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDB599E2AB257CB00E599AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY98G8GQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVVMProtocolOriented/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkancosar.MVVMProtocolOriented;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEDB59A02AB257CB00E599AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY98G8GQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkancosar.MVVMProtocolOrientedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMProtocolOriented.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVMProtocolOriented";
+			};
+			name = Debug;
+		};
+		DEDB59A12AB257CB00E599AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY98G8GQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkancosar.MVVMProtocolOrientedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMProtocolOriented.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVMProtocolOriented";
+			};
+			name = Release;
+		};
+		DEDB59A32AB257CB00E599AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY98G8GQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkancosar.MVVMProtocolOrientedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVVMProtocolOriented;
+			};
+			name = Debug;
+		};
+		DEDB59A42AB257CB00E599AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY98G8GQD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkancosar.MVVMProtocolOrientedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVVMProtocolOriented;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDB596D2AB257CA00E599AD /* Build configuration list for PBXProject "MVVMProtocolOriented" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB599A2AB257CB00E599AD /* Debug */,
+				DEDB599B2AB257CB00E599AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB599C2AB257CB00E599AD /* Build configuration list for PBXNativeTarget "MVVMProtocolOriented" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB599D2AB257CB00E599AD /* Debug */,
+				DEDB599E2AB257CB00E599AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB599F2AB257CB00E599AD /* Build configuration list for PBXNativeTarget "MVVMProtocolOrientedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB59A02AB257CB00E599AD /* Debug */,
+				DEDB59A12AB257CB00E599AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB59A22AB257CB00E599AD /* Build configuration list for PBXNativeTarget "MVVMProtocolOrientedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB59A32AB257CB00E599AD /* Debug */,
+				DEDB59A42AB257CB00E599AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDB596A2AB257CA00E599AD /* Project object */;
+}
