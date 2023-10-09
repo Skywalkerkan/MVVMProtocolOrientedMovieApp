@@ -1,2 +1,2 @@
 # MVVMProtocolOrientedMovieApp
-<img width="374" alt="Screen Shot 2023-10-09 at 19 39 18 PM" src="https://github.com/Skywalkerkan/MVVMProtocolOrientedMovieApp/assets/117943189/9df26f5f-e11d-4a50-8f9f-fc3e4d0f2fe9">
+![Simulator Screenshot - iPhone 12 Pro - 2023-10-09 at 19 48 56](https://github.com/Skywalkerkan/MVVMProtocolOrientedMovieApp/assets/117943189/eee24fd6-9444-4699-8e17-52a5e840224e)
