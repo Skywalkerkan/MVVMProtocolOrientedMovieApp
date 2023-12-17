@@ -13,11 +13,35 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: windowScene)
+
+        let mainTabBarController = MainTabBarController()
+        
+        // Her bir sekme için UINavigationController oluşturun
+        let movieService: MovieService = APIManager()
+        let viewModel = MovieViewModel(movieService: movieService)
+
+        let homeVC = HomeViewController(viewModel: viewModel)
+        homeVC.tabBarItem = UITabBarItem(title: "Movies", image: UIImage(systemName: "house"), tag: 0)
+        let homeNavVC = UINavigationController(rootViewController: homeVC)
+
+        
+        let searchVC = SearchViewController(viewModel: viewModel)
+        
+        
+        
+        searchVC.tabBarItem = UITabBarItem(title: "Search", image: UIImage(systemName: "magnifyingglass.circle"), tag: 1)
+        let searchNavVC = UINavigationController(rootViewController: searchVC)
+
+        // Ana tabBarController'a UINavigationController'ları ekleyin
+        mainTabBarController.viewControllers = [homeNavVC, searchNavVC]
+
+        // UIWindow'a ana tabBarController'ı kök olarak atayın ve görünür yapın
+        window?.rootViewController = mainTabBarController
+        window?.makeKeyAndVisible()
     }
+
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
