@@ -18,26 +18,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let mainTabBarController = MainTabBarController()
         
-        // Her bir sekme için UINavigationController oluşturun
         let movieService: MovieService = APIManager()
         let viewModel = MovieViewModel(movieService: movieService)
 
         let homeVC = HomeViewController(viewModel: viewModel)
         homeVC.tabBarItem = UITabBarItem(title: "Movies", image: UIImage(systemName: "house"), tag: 0)
         let homeNavVC = UINavigationController(rootViewController: homeVC)
-
         
         let searchVC = SearchViewController(viewModel: viewModel)
-        
-        
         
         searchVC.tabBarItem = UITabBarItem(title: "Search", image: UIImage(systemName: "magnifyingglass.circle"), tag: 1)
         let searchNavVC = UINavigationController(rootViewController: searchVC)
 
-        // Ana tabBarController'a UINavigationController'ları ekleyin
         mainTabBarController.viewControllers = [homeNavVC, searchNavVC]
 
-        // UIWindow'a ana tabBarController'ı kök olarak atayın ve görünür yapın
         window?.rootViewController = mainTabBarController
         window?.makeKeyAndVisible()
     }
